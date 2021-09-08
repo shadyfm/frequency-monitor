@@ -124,7 +124,7 @@ class Ui_Form(object):
            
             #creating error message
             for topic in self.required_topics_monitor:
-                if frequency_monitor.works[topic.ind] == False:
+                if topic.working == False:
 
                     if self.error_msg == "":
                         self.error_msg = str(topic.topic_type)
