@@ -194,7 +194,7 @@ class Ui_Form(object):
             self.error.adjustSize()
             
 
-        #adjusting widget positions
+        #changing active sensor count value
 
         self.sensor_count.setText(_translate("Form", str(frequency_monitor.works.count(True))))
         self.sensor_count.adjustSize()
