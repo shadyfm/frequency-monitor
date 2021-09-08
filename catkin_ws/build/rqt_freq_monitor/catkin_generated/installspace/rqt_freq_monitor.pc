@@ -1,0 +1,8 @@
+prefix=/home/shadida/catkin_ws/install
+
+Name: rqt_freq_monitor
+Description: Description of rqt_freq_monitor
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

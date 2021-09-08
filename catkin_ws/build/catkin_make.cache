@@ -1,0 +1,2 @@
+first_package:rqt_freq_monitor:sfm_rqt/sfm_topic_monitor
+-DCATKIN_DEVEL_PREFIX=/home/shadida/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/shadida/catkin_ws/install -G Unix Makefiles

@@ -1,0 +1,22 @@
+required:
+  camera-main:
+    topic: "/camera/color/image_raw"
+    min_freq_hz: 1
+  camera-infrared:
+    topic: "/flir_boson/image_raw"
+    min_freq_hz: 1
+  lidar-main:
+    topic: "/velodyne_points"
+    min_freq_hz: 1
+  gnss-main:
+    topic: "/piksi/heartbeat"
+    min_freq_hz: 1
+  imu-main:
+    topic: "/xsens/imu/data"
+    min_freq_hz: 1
+  can-bus1:
+    topic: "/edge18_hscan1"
+    min_freq_hz: 1
+  can-bus2:
+    topic: "/edge18_hscan2"
+    min_freq_hz: 1

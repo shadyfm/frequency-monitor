@@ -1,0 +1,20 @@
+<library path="src">
+  <class name="FrequencyMonitor" type="rqt_freq_monitor.my_module.FrequencyMonitor" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      An rqt plugin for monitoring the frequencies of specified ROS topics.
+    </description>
+    <qtgui>
+      <!-- optional grouping...
+      <group>
+        <label>Group</label>
+      </group>
+      <group>
+        <label>Subgroup</label>
+      </group>
+      -->
+      <label>Frequency Monitor</label>
+      <icon type="theme">system-help</icon>
+      <statustip>An rqt plugin for monitoring the frequencies of specified ROS topics.</statustip>
+    </qtgui>
+  </class>
+</library>

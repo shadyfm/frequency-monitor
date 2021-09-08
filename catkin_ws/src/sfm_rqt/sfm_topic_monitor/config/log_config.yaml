@@ -1,0 +1,15 @@
+required:
+  lidar_1:
+    topic: "/horizontal_laser_2d"
+    min_freq_hz: 37
+  lidar_2:
+    topic: "/vertical_laser_2d"
+    min_freq_hz: 37
+  imu_main:
+    topic: "/imu"
+    min_freq_hz: 197.3
+
+  
+  
+  
+  
